@@ -7,4 +7,4 @@ more lines
 and some more lines
 next test
 
-hi ,this is amal
+Hi, THIS IS AMAL
