@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="930e7d79-1231-4a93-adeb-7fff6dc6eec2" name="Changes" comment="merge test2">
+    <list default="true" id="930e7d79-1231-4a93-adeb-7fff6dc6eec2" name="Changes" comment="deleted invalid import">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +32,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="US01_AlbinaLemus" />
-                    <option name="lastUsedInstant" value="1678129438" />
+                    <option name="lastUsedInstant" value="1678130802" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1677704258" />
+                    <option name="lastUsedInstant" value="1678130781" />
                   </RecentBranch>
                 </list>
               </option>
@@ -46,11 +47,12 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="master" />
-      </list>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="albinalemus" />
+        <option name="repository" value="CRM_Project" />
+      </RepoCoordinatesHolder>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -80,7 +82,8 @@
       <workItem from="1677692395157" duration="802000" />
       <workItem from="1677704242810" duration="655000" />
       <workItem from="1677868377506" duration="963000" />
-      <workItem from="1678125840848" duration="1278000" />
+      <workItem from="1678125840848" duration="2748000" />
+      <workItem from="1678212500291" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="merge test2">
       <created>1677704278379</created>
@@ -89,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677704278379</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="deleted invalid import">
+      <created>1678130439332</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678130439332</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="merge test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge test2" />
+    <MESSAGE value="deleted invalid import" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted invalid import" />
   </component>
 </project>
