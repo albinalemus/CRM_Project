@@ -8,9 +8,9 @@ Feature:
     And user clicks the login button
     Then verify the user should be at the home page
 
-  Scenario: Verify users can access to 6 options under the CONFIGURE MENU
+  Scenario: Verify users can access to six options under the CONFIGURE MENU
     When users click the CONFIGURE MENU option
-    Then verify the users see flowing 6 options:
+    Then verify the users see flowing six options:
       | Configure menu items               |
       | Collapse menu                      |
       | Remove current page from left menu |
