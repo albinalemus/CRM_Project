@@ -2,6 +2,7 @@ package com.project_name.step_definitions;
 
 import com.project_name.pages.HomePage;
 import com.project_name.pages.LoginPage;
+import com.project_name.utilities.ConfigurationReader;
 import com.project_name.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,9 +16,9 @@ LoginPage loginPage = new LoginPage();
 
     @Given("users are on the homepage")
     public void users_are_on_the_homepage() {
-        Driver.getDriver().get("https://qa.nextbasecrm.com/auth/?backurl=%2Fstream%2F");
-        loginPage.userName.sendKeys("hr1@cybertekschool.com");
-        loginPage.password.sendKeys("UserUser");
+        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
+        loginPage.userName.sendKeys(ConfigurationReader.getProperty("hr_username"));
+        loginPage.password.sendKeys(ConfigurationReader.getProperty("hr_password"));
         loginPage.submit.click();
     }
     @When("users click the profile name")
