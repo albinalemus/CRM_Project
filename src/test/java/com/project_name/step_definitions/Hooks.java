@@ -25,13 +25,13 @@ public class Hooks {
     public void setupMethod(){
 
         Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-
-        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
     }
 
     //@Before (value = "@login", order = 2 )
-    public void login_scenario_before(){
+    public void the_user_is_on_the_login_page(){
         System.out.println("---> @Before: RUNNING BEFORE EACH SCENARIO");
+        //Driver.getDriver().get(ConfigurationReader.getProperty("url"));
+
     }
 
     /*
