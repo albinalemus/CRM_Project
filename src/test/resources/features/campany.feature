@@ -7,7 +7,7 @@ Feature:  As a user, I should be able to access to the Company page .
     When the user logged in as "hr"
     And user clicks the login button
 
-  Scenario :  Verify users see the seven modules in the Company page shown as design
+  Scenario:  Verify users see the seven modules in the Company page shown as design
 
     Given users are on the homepage
     When users click the Company module
@@ -16,9 +16,9 @@ Feature:  As a user, I should be able to access to the Company page .
       | Official Information |
       | Our Life             |
       | About Company        |
-      | Photo Company        |
-      | Video.               |
-      | Business News(RSS)   |
+      | Photo Gallery        |
+      | Video                |
       | Career               |
+      | Business News (RSS)  |
 
 
