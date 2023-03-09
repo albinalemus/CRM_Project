@@ -29,11 +29,13 @@ LoginPage loginPage = new LoginPage();
 
 
     @Then("verify the users see flowing five options:")
-    public void verifyTheUsersSeeFlowingFiveOptions(List<String> list1) {
+    public void verifyTheUsersSeeFlowingFiveOptions(List<String> expectedList) {
 
-        List<String> list2 = BrowserUtils.getElementsText(homePage.myProfileBox);
+        List<String> actualList = BrowserUtils.getElementsText(homePage.myProfileBox);
 
-        Assert.assertEquals(list2, list1);
+        Assert.assertEquals(actualList, expectedList);
 
     }
+
+
 }
