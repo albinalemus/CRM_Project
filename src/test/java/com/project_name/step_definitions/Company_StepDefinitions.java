@@ -32,8 +32,5 @@ public class Company_StepDefinitions {
 
     }
 
-    @Given("users are on the homepage")
-    public void usersAreOnTheHomepage() {
 
-    }
 }

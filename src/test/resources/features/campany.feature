@@ -9,7 +9,7 @@ Feature:  As a user, I should be able to access to the Company page .
 
   Scenario:  Verify users see the seven modules in the Company page shown as design
 
-    Given users are on the homepage
+
     When users click the Company module
     Then verify the users see flowing seven options:
 
