@@ -18,6 +18,15 @@ public class HomePage {
     @FindBy(xpath = "//div[@style='display: block;']//*[@class='menu-popup-item menu-popup-no-icon ']")
     public List<WebElement> myProfileBox;
 
+    @FindBy(xpath = "//span[@class='main-buttons-item-text-title']")
+    public List<WebElement> companyModules;
+
+
+
+
+
+    @FindBy(xpath = "//a[@title='Company']")
+    public WebElement companyBox;
 
 
 }
