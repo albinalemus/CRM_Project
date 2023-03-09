@@ -1,6 +1,7 @@
 package com.project_name.step_definitions;
 
 import com.project_name.pages.TimeAndReportsPage_Qamar;
+import com.project_name.utilities.BrowserUtils;
 import com.project_name.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -20,17 +21,11 @@ public class US71_StepDefs {
         timeAndReportsPage.timeAndReportModule.click();
 
     }
-    @Then("verify the users see flowing {int} options:")
-    public void verify_the_users_see_flowing_options(int expectedNumOfOptions, List<String> expectedOptions) {
+    @Then("verify the users see flowing five options:")
+    public void verify_the_users_see_flowing_options(List<String> expectedOptions) {
 
-        List<String> actualOptions = new ArrayList<>();
-        actualOptions.addAll(Arrays.asList(timeAndReportsPage.AbsenceChart.getText(), timeAndReportsPage.Worktime.getText(), timeAndReportsPage.Bitrix24_Time.getText(),
-                timeAndReportsPage.workReports.getText(), timeAndReportsPage.meetingsAndBriefings.getText()));
-        int actualNumOfOptions = actualOptions.size();
-        Assert.assertTrue(expectedNumOfOptions == actualNumOfOptions);
+        List<String> actualOptions = BrowserUtils.getElementsText(timeAndReportsPage.timeAndReportsModules);
         Assert.assertEquals(expectedOptions, actualOptions);
-
-
     }
 
 
