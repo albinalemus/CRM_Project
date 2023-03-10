@@ -24,6 +24,9 @@ public class LoginPage {
     @FindBy(xpath = "//input[@class='login-btn']")
     public WebElement submit;
 
+    @FindBy(xpath = "//div[@class='errortext']")
+    public WebElement errorMessage;
+
 
     public void login(String userNameStr, String passwordStr) {
         userName.sendKeys(userNameStr);
