@@ -11,7 +11,7 @@ Feature: As a user, I should be able to see all the options under the user profi
 
 
     When users click the profile name
-    Then verify the users see flowing five options:
+    Then verify the users see the flowing five options:
       | My Profile              |
       | Edit Profile Settings   |
       | Themes                  |

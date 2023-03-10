@@ -28,7 +28,7 @@ LoginPage loginPage = new LoginPage();
 
 
 
-    @Then("verify the users see flowing five options:")
+    @Then("verify the users see the flowing five options:")
     public void verifyTheUsersSeeFlowingFiveOptions(List<String> expectedList) {
 
         List<String> actualList = BrowserUtils.getElementsText(homePage.myProfileBox);
